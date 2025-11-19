@@ -1,0 +1,38 @@
+.theme-toggle-wrapper {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle {
+  width: 50px;
+  height: 26px;
+  background-color: #333;
+  border-radius: 13px;
+  position: relative;
+  transition: background-color 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.theme-toggle.light {
+  background-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.toggle-switch {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.theme-toggle.light .toggle-switch {
+  transform: translateX(24px);
+  background-color: #fff;
+}
+

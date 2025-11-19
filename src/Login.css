@@ -1,0 +1,26 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.login-btn {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.login-btn:hover {
+  background-color: #1ed760;
+}
+
