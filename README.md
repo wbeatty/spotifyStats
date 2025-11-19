@@ -1,6 +1,6 @@
 # Spotify Stats
 
-A React application that visualizes your Spotify listening statistics, built with Vite and TypeScript.
+A basic React application that visualizes your Spotify listening statistics, built with Vite and TypeScript. A result of me playing around with Gemini 3 Pro.
 
 ## Features
 
